@@ -1,0 +1,23 @@
+my_dict = {'Nina': 1991, 'Tata': 2001}
+print(my_dict)
+print(my_dict['Tata'])
+print(my_dict.get('Kamila'))
+print(my_dict['Nina'])
+my_dict ={'Nina': 1999}
+print(my_dict)
+my_dict = {'Nina': 1991, 'Tata': 2001}
+my_dict.update({'Ira': 2011,
+               'Vera': 1997})
+print(my_dict)
+get_person = my_dict.pop('Tata')
+print(f'Deleted value: {get_person}')
+print(f'Final change: {my_dict}')
+print(my_dict)
+my_set_ = {1, 2, 3, 4, 5, 1, 2, 3 }
+print(my_set_)
+my_set_ = {1, 2, 3, 4, 5, 1, 2, 3, 'String', True, (1, 2, 3)}
+print(my_set_)
+print(my_set_.discard(3))
+print(my_set_)
+print(my_set_.add(7))
+print(my_set_)
